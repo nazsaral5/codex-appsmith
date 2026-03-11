@@ -1,0 +1,8 @@
+{{
+	{
+		"id": this.params.id,
+		"firstName": this.params.firstName,
+		"lastName": this.params.lastName,
+		"email": this.params.email
+	}
+}}

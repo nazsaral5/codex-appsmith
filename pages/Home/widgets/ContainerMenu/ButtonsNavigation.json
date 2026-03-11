@@ -1,0 +1,182 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "displayName": "Button Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton91emiajr00.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonbw9mpyi3qf.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonsaeqguolxg.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton91emiajr00.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#be185d",
+      "buttonType": "SIMPLE",
+      "iconName": "home",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Home",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "person",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Students",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Students', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "iconName": "more",
+      "id": "groupButton3",
+      "index": 5,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "More",
+      "menuItems": {
+        "menuItem1": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Contact Information",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem2": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem2",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Software Version",
+          "onClick": "",
+          "widgetId": ""
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton91emiajr00": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "person",
+      "id": "groupButton91emiajr00",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Professors",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Professors', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": "41jnntvvsc"
+    },
+    "groupButtonbw9mpyi3qf": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "document",
+      "id": "groupButtonbw9mpyi3qf",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Courses",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": "iiscfdy6up"
+    },
+    "groupButtonsaeqguolxg": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonsaeqguolxg",
+      "index": 4,
+      "isDisabled": true,
+      "isVisible": true,
+      "label": "Admin",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": "s45z0h43k0"
+    }
+  },
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "je3x7exw2a",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 6,
+  "orientation": "horizontal",
+  "originalBottomRow": 10,
+  "originalTopRow": 6,
+  "parentColumnSpace": 16.046875,
+  "parentId": "q44x7wqdlf",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 6,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "5lei5mep8y",
+  "widgetName": "ButtonsNavigation"
+}
