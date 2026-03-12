@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "64de356e6ab1ab28d4ec1641_64deb3f16ab1ab28d4ec166e",
-  "id": "Teams_get_professor_data",
+  "gitSyncId": "69b2270a8c5d184362ae0bca_3a836e99-b0fe-4ef5-9f46-87c134f11cac",
+  "id": "Sports_get_all_professors",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -14,7 +14,7 @@
       "headers": [],
       "httpMethod": "GET",
       "paginationType": "NONE",
-      "path": "/professors/{{ this.params.id || 1122 }}",
+      "path": "/professors/",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -32,13 +32,9 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "path"
-      }
-    ],
-    "name": "get_professor_data",
-    "pageId": "Teams",
+    "dynamicBindingPathList": [],
+    "name": "get_all_professors",
+    "pageId": "Sports",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

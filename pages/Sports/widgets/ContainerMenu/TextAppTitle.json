@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 10,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -12,34 +12,39 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.25rem",
+  "fontSize": "1.875rem",
   "fontStyle": "BOLD",
   "hideCard": false,
   "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "5froqyxg2q",
-  "leftColumn": 2,
+  "key": "97cdd5cp5h",
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 5,
-  "mobileLeftColumn": 1.5,
-  "mobileRightColumn": 25.5,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
   "mobileTopRow": 1,
-  "originalBottomRow": 7,
-  "originalTopRow": 1,
+  "originalBottomRow": 10,
+  "originalTopRow": 2,
   "overflow": "NONE",
-  "parentId": "6f5ikxjgdf",
+  "parentColumnSpace": 16.046875,
+  "parentId": "2k5xvbsvcf",
+  "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 53,
+  "rightColumn": 64,
   "searchTags": [
     "typography",
     "paragraph",
@@ -50,13 +55,13 @@
     "Suggested",
     "Content"
   ],
-  "text": "Professor Details",
+  "text": "Milano Cortina 2026 Olympics\nSportsHub",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 1,
+  "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "topRow": 2,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "pzr3zhxpb8",
-  "widgetName": "Text4"
+  "widgetId": "cjxejnxpl3",
+  "widgetName": "TextAppTitle"
 }
