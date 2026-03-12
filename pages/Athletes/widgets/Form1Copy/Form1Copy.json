@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 55,
+  "bottomRow": 92,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "pha3182b2t",
+      "parentId": "8a4h4okxq7",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "q8v28s15oq",
-      "widgetName": "Canvas1"
+      "widgetId": "z6qx7lons7",
+      "widgetName": "Canvas1Copy1"
     }
   ],
   "dynamicBindingPathList": [
@@ -73,8 +73,8 @@
   "mobileRightColumn": 12,
   "mobileTopRow": 63,
   "needsErrorInfo": false,
-  "originalBottomRow": 55,
-  "originalTopRow": 19,
+  "originalBottomRow": 92,
+  "originalTopRow": 56,
   "parentColumnSpace": 8.96875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -83,8 +83,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 33,
   "shouldScrollContents": true,
-  "topRow": 19,
+  "topRow": 56,
   "type": "FORM_WIDGET",
-  "widgetId": "pha3182b2t",
-  "widgetName": "Form1"
+  "widgetId": "8a4h4okxq7",
+  "widgetName": "Form1Copy"
 }

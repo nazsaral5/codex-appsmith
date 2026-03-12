@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 82,
+  "bottomRow": 91,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -147,7 +147,7 @@
   "mobileTopRow": 17,
   "needsHeightForContent": true,
   "onAddNewRowSave": "{{add_student.run(Table1.newRow).then(() => {\n  get_student_list.run();\n  showAlert('Student added successfully', 'success');\n}).catch(() => {\n  showAlert('Failed to add student.', 'error');\n});}}",
-  "originalBottomRow": 82,
+  "originalBottomRow": 91,
   "originalTopRow": 19,
   "parentColumnSpace": 16.359375,
   "parentId": "0",
