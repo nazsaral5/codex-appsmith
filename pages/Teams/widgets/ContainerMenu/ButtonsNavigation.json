@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "borderRadius": "1.5rem",
+  "bottomRow": 17,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -11,9 +11,6 @@
   },
   "displayName": "Button Group",
   "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
     {
       "key": "groupButtons.groupButton3.buttonColor"
     },
@@ -152,21 +149,21 @@
   "isLoading": false,
   "isVisible": true,
   "key": "je3x7exw2a",
-  "leftColumn": 0,
+  "leftColumn": 54,
   "minWidth": 450,
   "mobileBottomRow": 10,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 24,
   "mobileTopRow": 6,
   "orientation": "horizontal",
-  "originalBottomRow": 12,
-  "originalTopRow": 8,
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
   "parentColumnSpace": 16.046875,
   "parentId": "2k5xvbsvcf",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 54,
+  "rightColumn": 64,
   "searchTags": [
     "click",
     "submit"
@@ -174,7 +171,7 @@
   "tags": [
     "Buttons"
   ],
-  "topRow": 8,
+  "topRow": 13,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "3coh6qm751",
