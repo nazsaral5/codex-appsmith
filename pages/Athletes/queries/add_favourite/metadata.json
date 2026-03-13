@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "64de356e6ab1ab28d4ec1641_64de3d3b6ab1ab28d4ec164c",
-  "id": "Athletes_update_student",
+  "gitSyncId": "64de356e6ab1ab28d4ec1641_64de77ae6ab1ab28d4ec164f",
+  "id": "Athletes_add_favourite",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,16 +11,16 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n\t{\n\t\t\"id\": this.params.id,\n\t\t\"firstName\": this.params.firstName,\n\t\t\"lastName\": this.params.lastName,\n\t\t\"email\": this.params.email\n\t}\n}}",
+      "body": "{\n  \"id\": {{Number(inpFavouriteId.text)}},\n  \"userId\": {{Number(inpUserId.text)}},\n  \"athleteId\": {{Number(tblAthletes.selectedRow.athleteId)}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       },
       "headers": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "paginationType": "NONE",
-      "path": "/students/{{ this.params.id }}",
+      "path": "/favourites",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -40,15 +40,12 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
-      },
-      {
         "key": "body"
       }
     ],
-    "name": "update_student",
+    "name": "add_favourite",
     "pageId": "Athletes",
     "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
