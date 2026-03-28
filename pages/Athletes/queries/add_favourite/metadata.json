@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"username\": \"{{inpUserId.text.trim()}}\",\n  \"athleteId\": {{Number(tblAthletes.selectedRow.athleteId)}}\n}",
+      "body": "{\n  \"username\": \"{{inpUserId.text.trim()}}\",\n  \"athleteId\": {{Number(tblAthletes.selectedRow.athleteId)}}\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
