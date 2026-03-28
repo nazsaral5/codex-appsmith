@@ -76,7 +76,7 @@
       "index": 5,
       "isDisabled": false,
       "isVisible": true,
-      "label": "More",
+      "label": "Explore",
       "menuItems": {
         "menuItem1": {
           "backgroundColor": "#FFFFFF",
@@ -84,8 +84,8 @@
           "index": 0,
           "isDisabled": false,
           "isVisible": true,
-          "label": "Contact Information",
-          "onClick": "",
+          "label": "Events",
+          "onClick": "{{navigateTo('Events', {}, 'SAME_WINDOW');}}",
           "widgetId": ""
         },
         "menuItem2": {
@@ -94,8 +94,18 @@
           "index": 1,
           "isDisabled": false,
           "isVisible": true,
-          "label": "Software Version",
-          "onClick": "",
+          "label": "Results",
+          "onClick": "{{navigateTo('Results', {}, 'SAME_WINDOW');}}",
+          "widgetId": ""
+        },
+        "menuItem3": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem3",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Venues",
+          "onClick": "{{navigateTo('Venues', {}, 'SAME_WINDOW');}}",
           "widgetId": ""
         }
       },
@@ -110,9 +120,9 @@
       "index": 2,
       "isDisabled": false,
       "isVisible": true,
-      "label": "Teams",
+      "label": "Countries",
       "menuItems": {},
-      "onClick": "{{navigateTo('Teams', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Countries', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": "41jnntvvsc"
     },
@@ -135,10 +145,11 @@
       "buttonType": "SIMPLE",
       "id": "groupButtonsaeqguolxg",
       "index": 4,
-      "isDisabled": true,
+      "isDisabled": false,
       "isVisible": true,
-      "label": "Admin",
+      "label": "Teams",
       "menuItems": {},
+      "onClick": "{{navigateTo('Teams', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": "s45z0h43k0"
     }

@@ -36,6 +36,22 @@
       "isDefault": false
     },
     {
+      "id": "Countries",
+      "isDefault": false
+    },
+    {
+      "id": "Events",
+      "isDefault": false
+    },
+    {
+      "id": "Results",
+      "isDefault": false
+    },
+    {
+      "id": "Venues",
+      "isDefault": false
+    },
+    {
       "id": "Teams",
       "isDefault": false
     },
