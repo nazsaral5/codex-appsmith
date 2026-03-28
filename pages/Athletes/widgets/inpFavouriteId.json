@@ -21,7 +21,7 @@
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
-  "isVisible": true,
+  "isVisible": false,
   "key": "n89gzu48yz",
   "label": "Favourite ID",
   "labelAlignment": "left",

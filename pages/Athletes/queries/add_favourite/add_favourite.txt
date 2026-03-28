@@ -1,5 +1,4 @@
 {
-  "id": {{Number(inpFavouriteId.text)}},
-  "userId": {{Number(inpUserId.text)}},
+  "username": "{{inpUserId.text.trim()}}",
   "athleteId": {{Number(tblAthletes.selectedRow.athleteId)}}
 }

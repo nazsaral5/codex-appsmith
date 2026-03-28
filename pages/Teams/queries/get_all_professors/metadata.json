@@ -14,7 +14,7 @@
       "headers": [],
       "httpMethod": "GET",
       "paginationType": "NONE",
-      "path": "/professors/",
+      "path": "/teams",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -35,7 +35,7 @@
     "dynamicBindingPathList": [],
     "name": "get_all_professors",
     "pageId": "Teams",
-    "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }

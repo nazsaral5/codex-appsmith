@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 70,
   "boxShadow": "none",
-  "defaultText": "1\n",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -23,7 +23,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "n89gzu48yz",
-  "label": "User ID",
+  "label": "Username",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",

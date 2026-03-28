@@ -64,7 +64,7 @@
       "isVisible": true,
       "label": "Athletes",
       "menuItems": {},
-      "onClick": "{{navigateTo('Students', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Athletes', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -112,7 +112,7 @@
       "isVisible": true,
       "label": "Teams",
       "menuItems": {},
-      "onClick": "{{navigateTo('Professors', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Teams', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": "41jnntvvsc"
     },
@@ -126,6 +126,7 @@
       "isVisible": true,
       "label": "Sports",
       "menuItems": {},
+      "onClick": "{{navigateTo('Sports', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": "iiscfdy6up"
     },
